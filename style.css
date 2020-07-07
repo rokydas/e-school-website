@@ -1,0 +1,131 @@
+header{
+    padding-bottom: 5px;
+    background-color: #F0FFF0;
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.custom-button{
+    background-color: #21B573;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 25px;
+    border: none;
+}
+
+.custom-nav-element{
+    padding-top: 20px;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+/* .row{
+    border: 5px solid red;
+} */
+
+header h5{
+    color: orange;
+}
+
+.schedule{
+    color: #22b473;
+}
+
+header h1{
+    font-weight: 1000;
+    font-size: 55px;
+}
+
+header p{
+    color: gray;
+}
+
+.icon-box{
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.icon-box:hover{
+    box-shadow: 5px 5px 30px lightgray;
+}
+
+.icon-box img{
+    height: 100px;
+}
+
+.icon-box p{
+    color: gray;
+}
+
+.course h1{
+    font-weight: 1000;
+    text-align: center;
+    color: #413960;
+    margin-bottom: 100px;
+}
+
+.card-title{
+    color: #413960;
+    font-weight: 700;
+}
+
+.card-img-top{
+    padding: 20px;
+}
+
+.card-footer img{
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px lightgray;;
+}
+
+.card:hover{
+    box-shadow: 15px 15px 30px lightgray;;
+}
+
+.testimonial h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.testimonial{
+    width: 40%;
+}
+
+.man-pic img{
+    width: 100px;
+}
+
+footer{
+    background-color: #282531;
+    color: white;
+    padding: 50px 0px;
+}
+
+footer .container{
+    margin-bottom: 0px;
+}
+
+.copyright{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
