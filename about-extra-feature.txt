@@ -1,0 +1,7 @@
+1. contact form avobe footer
+2. make a drop-down list in other in navbar
+3. Making gap between the icons
+4. Extra section- books and blogs
+5. Gap between header and icons
+6. Checks the codes. 
+7. Submit the assignment
