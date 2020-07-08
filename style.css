@@ -207,3 +207,6 @@ footer .container{
     color: #585859;
 }
 
+.form-control{
+    width: 250px;
+}
