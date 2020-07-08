@@ -1,0 +1,36 @@
+<div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-sm-6 col-md-6 col-lg-3 icon-box">
+                <div>
+                    <img class="img-fluid" src="icon/book.png" alt="Book Icon"><br><br>
+                    <h3>1500+ Topic</h3>
+                    <p>Learn Anythings</p>
+                </div>
+                
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 icon-box">
+                <div>
+                    <img class="img-fluid" src="icon/student.png" alt="Student Icon"><br><br>
+                    <h3>1800+ Students</h3>
+                    <p>Learn Anythings</p>
+                </div>
+                
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 icon-box">
+                <div>
+                    <img class="img-fluid" src="icon/Test.png" alt="Test Icon"><br><br>
+                    <h3>9K+ Test Token</h3>
+                    <p>Learn Anythings</p>
+                </div>
+                
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3 icon-box">
+                <div>
+                    <img class="img-fluid" src="icon/Students.png" alt="Students Icon"><br><br>
+                    <h3>2000+ Student</h3>
+                    <p>Learn Anythings</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
