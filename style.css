@@ -1,6 +1,10 @@
 header{
-    padding-bottom: 5px;
     background-color: #F0FFF0;
+}
+
+header .container{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .navbar-brand img{
@@ -17,6 +21,16 @@ header{
 
 .custom-nav-element{
     padding-top: 20px;
+    font-weight: 600;
+}
+
+.dropdown-item{
+    font-weight: 600;
+}
+
+.dropdown-menu{
+    background-color: #F0FFF0;
+    border: none;
 }
 
 .container{
@@ -28,7 +42,7 @@ header{
 } */
 
 header h5{
-    color: orange;
+    color: #FD511A;
 }
 
 .schedule{
@@ -60,6 +74,11 @@ header p{
 
 .icon-box p{
     color: gray;
+}
+
+.icon-box h4{
+    font-weight: 600;
+    color: #413960;
 }
 
 .course h1{
@@ -128,5 +147,54 @@ footer .container{
     text-align: center;
 }
 
+#contact{
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
 
+#exampleFormControlTextarea1{
+    height: 150px;
+}
 
+#contact h1{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 1000;
+}
+
+.blog-picture{
+    height: 300px;
+}
+
+.blog h1{
+    font-weight: 1000;
+    text-align: center;
+    color: #413960;
+    margin-bottom: 100px;
+}
+
+.blog p{
+    color: gray;
+}
+
+#about h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-weight: 1000;
+}
+
+#about p{
+    font-size: 30px;
+    font-family: 'Fondamento', cursive;
+}
+
+.social{
+    text-align: center;
+}
+
+.social img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 0px 5px;
+}

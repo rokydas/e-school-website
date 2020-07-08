@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-School Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,14 +29,21 @@
                         <li class="nav-item active">
                             <a class="nav-link custom-nav-element" href="#courses">Courses</a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link custom-nav-element" href="#others">Others</a>
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle custom-nav-element" href="#" id="navbarDropdown"
+                                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Others
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#about">About Us</a>
+                                <a class="dropdown-item" href="#contact">Contact Us</a>
+                            </div>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link custom-nav-element" href="#blog">Blog</a>
+                            <a class="nav-link custom-nav-element" href="#blogs">Blog</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#contact"><button class="custom-button">Sign in</button></a>
+                            <a class="nav-link" href="#"><button class="custom-button">Sign in</button></a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +65,38 @@
         </div>
     </header>
 
-
+    <div class="container icon">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="icon-box">
+                    <img class="img-fluid" src="icon/book.png" alt="Book Icon"><br><br>
+                    <h4>1500+ Topic</h4>
+                    <p>Learn Anythings</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-box">
+                    <img class="img-fluid" src="icon/student.png" alt="Student Icon"><br><br>
+                    <h4>1800+ Students</h4>
+                    <p>Learn Anythings</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-box">
+                    <img class="img-fluid" src="icon/Test.png" alt="Test Icon"><br><br>
+                    <h4>9K+ Test Token</h4>
+                    <p>Learn Anythings</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-box">
+                    <img class="img-fluid" src="icon/Students.png" alt="Students Icon"><br><br>
+                    <h4>2000+ Student</h4>
+                    <p>Learn Anythings</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container course" id="courses">
         <h1>Online Courses</h1>
@@ -113,6 +152,60 @@
         </div>
     </div>
 
+    <div class="container blog" id="blogs">
+        <h1>Our Blogs</h1>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top blog-picture" src="blog/html.png" alt="Card image 1">
+                <div class="card-body">
+                    <h5 class="card-title">HTML5</h5>
+                    <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error odio animi veniam mollitia eum quam consectetur architecto beatae sed fuga...</p>
+                    <button class="custom-button">Read this</button>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <div class="calendar">
+                        <p><img src="icon/calendar.png" alt="Calendar icon">20 April, 2021</p>
+                    </div>
+                    <div class="people">
+                        <p><img class="img-fluid" src="icon/people.png" alt="People icon">60 views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top blog-picture" src="blog/css.svg" alt="Card image 2">
+                <div class="card-body">
+                    <h5 class="card-title">CSS3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi maxime aspernatur? A asperiores, sit omnis tempora ex necessitatibus temporibus...</p>
+                    <button class="custom-button">Read this</button>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <div class="calendar">
+                        <p><img src="icon/calendar.png" alt="Calendar icon">20 April, 2021</p>
+                    </div>
+                    <div class="people">
+                        <p><img class="img-fluid" src="icon/people.png" alt="People icon">60 views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top blog-picture" src="blog/js.png" alt="Card image 3">
+                <div class="card-body">
+                    <h5 class="card-title">Javascript</h5>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur error maiores laborum. Provident voluptatem alias eaque earum exercitationem veritatis saepe...</p>
+                    <button class="custom-button">Read this</button>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <div class="calendar">
+                        <p><img src="icon/calendar.png" alt="Calendar icon">20 April, 2021</p>
+                    </div>
+                    <div class="people">
+                        <p><img class="img-fluid" src="icon/people.png" alt="People icon">60 views</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container testimonial">
         <h1>Testimonial</h1>
         <div class="row justify-content-between align-items-center">
@@ -123,6 +216,18 @@
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="about">
+        <h1>About Us</h1>
+        <div class="row d-flex align-items-center justify-content-between">
+            <div class="col-md-6">
+                <img src="about.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium nisi vel in nesciunt ut doloremque, cum inventore. Repellendus nesciunt corrupti, hic nihil, vel libero quae modi nostrum similique nam quos!A</p>
             </div>
         </div>
     </div>
@@ -142,6 +247,27 @@
                 <div class="col-md-2">
                     <p><b>Useful Link</b><br>Graphic Design<br>Web Design<br>Business<br>Marketing<br>Engineering</p>
                 </div>
+            </div>
+            <div class="container" id="contact">
+                <form class="row">
+                    <div class="form-group col-md-6">
+                        <input type="email" placeholder="Your Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="col-md-6">
+                        <button type="submit" class="custom-button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+            <div class="social">
+                <a target="_blank" href="https://www.facebook.com/rokydas.rokydas.5"><img src="social/fb.jpg" alt=""></a>
+                <a target="_blank" href="https://www.linkedin.com/in/roky-das-448b3617b/"><img src="social/linkedin.jpg" alt=""></a>
+                <a target="_blank" href="https://www.instragram.com"><img src="social/instra.jpg" alt=""></a>
+                <a target="_blank" href="https://twitter.com"><img src="social/twitter.jpg" alt=""></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UC9EjQgVzxa-Uw_HdYgt-BuQ?view_as=subscriber"><img src="social/youtube.jpg" alt=""></a>
+                
+                
             </div>
             <p class="copyright">Copyright © 2020 Rokomari.com</p>
         </div>
