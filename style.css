@@ -1,6 +1,9 @@
 header{
-    padding-bottom: 5px;
     background-color: #F0FFF0;
+}
+
+header .container{
+    padding-bottom: 50px;
 }
 
 .navbar-brand img{
