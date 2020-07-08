@@ -88,6 +88,10 @@ header p{
     margin-bottom: 100px;
 }
 
+.course p{
+    color: #585859;
+}
+
 .card-title{
     color: #413960;
     font-weight: 700;
@@ -175,7 +179,7 @@ footer .container{
 }
 
 .blog p{
-    color: gray;
+    color: #585859;
 }
 
 #about h1{
